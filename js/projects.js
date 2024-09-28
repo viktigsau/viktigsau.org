@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/viktigsau/viktigsau.org/main/projects/info.json')
+fetch('https://viktigsau.org/projects/info.json')
   .then(response => {
     // Check if the request was successful
     if (!response.ok) {

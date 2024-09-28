@@ -1,9 +1,9 @@
 {
-  "projects":[
-    {
-      "name":"birthday tools",
-      "description":"some birthday tools, such as age calculator that suports diffrent planets.",
-      "url":"/projects/birthday-tools"
-    }
-  ]
-}
+    "projects":[
+      {
+        "name":"birthday tools",
+        "description":"some birthday tools, such as age calculator.",
+        "url":"https://viktigsau.org/projects/birthday-tools"
+      }
+    ]
+  }
