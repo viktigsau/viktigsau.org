@@ -2,7 +2,9 @@
   "projects":[
     {
       "name":"test",
-      "folder":"test"
+      "folder":"test",
+      "description":"a lovely test",
+      "url":"https://viktigsau.org/projects/test"
     }
   ]
 }
