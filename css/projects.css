@@ -1,0 +1,32 @@
+.project{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    background-color: #6fff0f;
+
+    padding: 20px;
+    padding-top: 0;
+    min-width: fit-content;
+    flex-grow: 1;
+}
+
+#projects{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+
+    min-width: 200px;
+
+    background-color: #07f;
+
+    padding: 20px;
+}
+
+#projects_holder{
+    min-width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
