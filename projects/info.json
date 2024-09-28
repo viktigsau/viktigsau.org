@@ -2,8 +2,17 @@
   "projects":[
     {
       "name":"test",
-      "folder":"test",
       "description":"a lovely test",
+      "url":"https://viktigsau.org/projects/test"
+    },
+    {
+      "name":"test2",
+      "description":"a lovely test2",
+      "url":"https://viktigsau.org/projects/test"
+    },
+    {
+      "name":"test3",
+      "description":"a lovely test3",
       "url":"https://viktigsau.org/projects/test"
     }
   ]
