@@ -9,7 +9,6 @@ fetch('https://raw.githubusercontent.com/viktigsau/viktigsau.org/main/projects/i
   })
   .then(data => {
     // Handle the JSON data
-    console.log(data)
     const projects = data.projects;
     const holder = document.getElementById("projects_holder");
     for (let i = 0; i < projects.length; i++) { 
