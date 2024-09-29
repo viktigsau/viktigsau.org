@@ -1,4 +1,4 @@
-fetch('https://viktigsau.org/projects/info.json')
+fetch(`${window.location.origin}/projects/info.json`)
   .then(response => {
     // Check if the request was successful
     if (!response.ok) {

@@ -10,7 +10,7 @@ fetch(`${window.location.origin}/projects/birthday-tools/info.json`)
   .then(data => {
     // Handle the JSON data
     const tools = data.tools;
-    for (let i = 0; i < tools.length; i++) { 
+    for (let i = 0; i < tools.length; i++) {
         const tool = tools[i];
         
         const div = document.createElement("div");
