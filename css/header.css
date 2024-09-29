@@ -1,5 +1,7 @@
 header{
     position: fixed;
+
+    margin: 0;
     
     height: 100px;
 
