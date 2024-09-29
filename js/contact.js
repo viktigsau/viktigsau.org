@@ -21,7 +21,7 @@ fetch(`${window.location.origin}/social-links.json`)
         logo.classList.add("contact-img");
 
         const name = document.createElement("a");
-        //name.innerText = social.name
+        name.target = "_blank";
         name.href = social.link
         name.classList.add("contact-name");
         name.appendChild(logo);
