@@ -1,0 +1,14 @@
+{
+    "socials":[
+        {
+            "name":"redit",
+            "link":"https://www.reddit.com/r/viktig_sau/",
+            "img":"https://static.vecteezy.com/system/resources/previews/023/986/983/large_2x/reddit-logo-reddit-logo-transparent-reddit-icon-transparent-free-free-png.png"
+        },
+        {
+            "name":"discord",
+            "link":"https://discord.gg/jAJkCPCqAr",
+            "img":"https://static.vecteezy.com/system/resources/previews/018/930/500/original/discord-logo-discord-icon-transparent-free-png.png"
+        }
+    ]
+}
