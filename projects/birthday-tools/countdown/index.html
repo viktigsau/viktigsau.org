@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown</title>
 
-    <link rel="shortcut icon" href="https://viktigsau.org/logo-round.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../css/contact.css">
+    <link rel="stylesheet" href="../../../css/header.css">
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="not_fullscreen.css">
 </head>
 <body>
-    <div id="container">
-        <h2>time left:</h2>
-        <p id="output"></p>
+    <header>
+        <img src="../../../logo-round.png" alt="logo" id="logo">
+        <h1 id="logo-name">viktig_sau</h1>
+        <p id="slogan">Don't just follow the heard, code your own path!</p>
+    </header>
+    <script src="js/header.js"></script>
+
+    <script src="https://viktigsau.org/projects/web-tools/fullscreen.js"></script>
+    <div id="site-body">
+        <iframe src="countdown.html" frameborder="0"></iframe>
+        <button onclick="Fullscreen(document.getElementsByTagName('iframe')[0])">Fullscreen</button>
     </div>
-    <dialog id="date-dia">
-        <input type="datetime-local" id="date">
-        <button id="done">done</button>
-    </dialog>
-    <script src="/projects/web-tools/parameter.js"></script>
-    <script src="script.js"></script>
+
+    <div id="contact"></div>
+    <script src="../../../js/contact.js"></script>
 </body>
 </html>

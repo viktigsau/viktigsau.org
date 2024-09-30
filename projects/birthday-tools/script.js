@@ -9,6 +9,7 @@ fetch(`${window.location.origin}/projects/birthday-tools/info.json`)
   })
   .then(data => {
     // Handle the JSON data
+    const container = document.getElementById("site-body");
     const tools = data.tools;
     for (let i = 0; i < tools.length; i++) {
         const tool = tools[i];
@@ -32,7 +33,7 @@ fetch(`${window.location.origin}/projects/birthday-tools/info.json`)
         description.classList.add("description")
         div.appendChild(description);
         
-        document.body.appendChild(div);
+        container.appendChild(div);
     };
   })
   .catch(error => {

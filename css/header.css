@@ -37,3 +37,7 @@ header{
     margin-left: 100px;
     margin-top: -10px;
 }
+
+body{
+    margin: 0;
+}

@@ -7,6 +7,7 @@ fetch(`${window.location.origin}/projects/web-tools/info.json`)
     return response.json();
 })
 .then(data => {
+    const container = document.getElementById("site-body");
     for (const lib of data.tools) {
         const tool = document.createElement("div");
 
@@ -22,6 +23,8 @@ fetch(`${window.location.origin}/projects/web-tools/info.json`)
         description.innerText = lib.description;
         tool.appendChild(description);
 
-        document.body.appendChild(tool);
+        tool.classList.add("tool");
+
+        container.appendChild(tool);
     };
 });

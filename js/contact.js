@@ -10,7 +10,7 @@ fetch(`${window.location.origin}/social-links.json`)
   .then(data => {
     // Handle the JSON data
     const socials = data.socials;
-    const holder = document.getElementById("contact");
+    const holder = document.getElementById('contact');
     for (let i = 0; i < socials.length; i++) { 
         const social = socials[i];
         
@@ -31,6 +31,10 @@ fetch(`${window.location.origin}/social-links.json`)
 
         holder.appendChild(socials_div);
     };
+
+    const pos = holder.getBoundingClientRect();
+    const vh = window.visualViewport.height;
+    holder.style.paddingBottom =  vh-pos.top-100 + "px";
   })
   .catch(error => {
     // Handle any errors that occurred during the fetch
