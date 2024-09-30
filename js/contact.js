@@ -20,12 +20,19 @@ fetch(`${window.location.origin}/social-links.json`)
         logo.src = social.img;
         logo.classList.add("contact-img");
 
-        const name = document.createElement("a");
-        name.target = "_blank";
-        name.href = social.link
-        name.classList.add("contact-name");
-        name.appendChild(logo);
-        socials_div.appendChild(name);
+        const link = document.createElement("a");
+        link.target = "_blank";
+        link.href = social.link
+        link.classList.add("contact-link");
+        link.appendChild(logo);
+
+        const name = document.createElement("p");
+
+        name.innerText = social.name;
+
+        link.appendChild(name);
+
+        socials_div.appendChild(link);
 
         socials_div.classList.add("contact-link");
 

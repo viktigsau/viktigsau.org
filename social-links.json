@@ -9,6 +9,11 @@
             "name":"discord",
             "link":"https://discord.gg/jAJkCPCqAr",
             "img":"https://static.vecteezy.com/system/resources/previews/018/930/500/original/discord-logo-discord-icon-transparent-free-png.png"
+        },
+        {
+            "name":"me@viktigsau.org",
+            "link":"mailto:me@viktigsau.org",
+            "img":"https://viktigsau.org/logo-round.png"
         }
     ]
 }
