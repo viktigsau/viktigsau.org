@@ -9,6 +9,11 @@
         "name":"web tools",
         "description":"some web tools.",
         "url":"/projects/web-tools"
-      }
+      },
+        {
+          "name": "Cupony",
+          "description": "now that hony is exposed i decidet to make a more transparent verson of hony",
+          "url": "https://github.com/viktigsau/cupony"
+        }
     ]
   }
