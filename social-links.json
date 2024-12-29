@@ -24,6 +24,11 @@
             "name":"twitch",
             "link":"https://twitch.tv/viktig_sau",
             "img":"https://assets.twitch.tv/assets/favicon-16-52e571ffea063af7a7f4.png"
+        },
+        {
+            "name":"youtube",
+            "link":"https://youtube.com/@viktig_sau",
+            "img":"https://www.youtube.com/s/desktop/c01ea7e3/img/logos/favicon_32x32.png"
         }
     ]
 }
