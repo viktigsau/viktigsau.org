@@ -29,6 +29,11 @@
             "name":"youtube",
             "link":"https://youtube.com/@viktig_sau",
             "img":"https://www.youtube.com/s/desktop/c01ea7e3/img/logos/favicon_32x32.png"
+        },
+        {
+            "name":"github",
+            "link":"https://github.com/viktigsau",
+            "img":"https://github.githubassets.com/favicons/favicon-dark.png"
         }
     ]
 }
