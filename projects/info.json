@@ -1,19 +1,9 @@
 {
     "projects":[
       {
-        "name":"birthday tools",
-        "description":"some birthday tools, such as age calculator.",
-        "url":"/projects/birthday-tools"
-      },
-      {
-        "name":"web tools",
-        "description":"some web tools.",
-        "url":"/projects/web-tools"
-      },
-        {
-          "name": "Cupony",
-          "description": "now that hony is exposed i decidet to make a more transparent verson of hony",
-          "url": "https://github.com/viktigsau/cupony"
-        }
+        "name":"visitors",
+        "description":"a simple visitor counter.",
+        "url":"https://visitors.viktigsau.org/"
+      }
     ]
   }

@@ -1,9 +1,0 @@
-{
-    "tools":[
-        {
-            "name":"countdown",
-            "description":"a countdown to your birthday",
-            "url":"/projects/birthday-tools/countdown"
-        }
-    ]
-}
