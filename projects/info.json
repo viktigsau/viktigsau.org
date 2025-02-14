@@ -4,6 +4,11 @@
         "name":"visitors",
         "description":"a simple visitor counter.",
         "url":"https://visitors.viktigsau.org/"
+      },
+      {
+          "name":"Red VS Blue",
+          "description":"click so your team can get to the top",
+          "url":"https://red-vs-blue.viktigsau.org/"
       }
     ]
   }
