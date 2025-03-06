@@ -3,12 +3,12 @@
       {
         "name":"visitors",
         "description":"a simple visitor counter.",
-        "url":"https://visitors.viktigsau.org/"
+        "url":"https://visitors.viktigsau.org/?s=ohBtkeGrwY8"
       },
       {
           "name":"Red VS Blue",
           "description":"click so your team can get to the top",
-          "url":"https://red-vs-blue.viktigsau.org/"
+          "url":"https://red-vs-blue.viktigsau.org/?s=ohBtkeGrwY8"
       }
     ]
   }
