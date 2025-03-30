@@ -1,4 +1,4 @@
-fetch(`${window.location.origin}/social-links.json`)
+fetch(`https://viktigsau.org/social-links.json`)
   .then(response => {
     // Check if the request was successful
     if (!response.ok) {
