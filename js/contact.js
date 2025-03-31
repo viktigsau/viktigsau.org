@@ -39,9 +39,22 @@ fetch(`https://viktigsau.org/social-links.json`)
         holder.appendChild(socials_div);
     };
 
-    const pos = holder.getBoundingClientRect();
-    const vh = window.visualViewport.height;
-    holder.style.paddingBottom =  vh-pos.top-100 + "px";
+    const onresize = () =>{
+      const pos = holder.getBoundingClientRect();
+      const vh = window.visualViewport.height;
+      holder.style.paddingBottom =  vh-pos.top-100 + "px";
+    };
+
+    const observer = new ResizeObserver(entries => {
+    for (let entry of entries) {
+        onresize();
+    }
+
+    document.querySelectorAll('*').forEach(element => observer.observe(element));
+    onresize();
+});
+
+document.querySelectorAll('*').forEach(element => observer.observe(element));
   })
   .catch(error => {
     // Handle any errors that occurred during the fetch
