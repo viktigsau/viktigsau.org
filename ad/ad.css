@@ -1,0 +1,34 @@
+.ad-mobile{
+    display: none;
+
+    width: 320;
+    height: 50;
+}
+
+.ad-computer{
+    display: block;
+
+    width: 468;
+    height: 60;
+}
+
+.ad-wrapper {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.ad-container {
+    border: 0;
+}
+
+.ad-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 10;
+}
