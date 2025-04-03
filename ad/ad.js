@@ -80,4 +80,4 @@ window.visualViewport.addEventListener("resize", fixAds);
 
 const date = new Date().getDate();
 
-setInterval(reloadAds, 15000);
+setInterval(reloadAds, 30000);
