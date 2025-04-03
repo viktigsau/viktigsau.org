@@ -36,6 +36,18 @@ function reloadAd(ad) {
     }
 }
 
+function loadADs(loc) {
+    if (!loc) loc = "ad.html";
+    
+    document.querySelectorAll(".ad").forEach(adDiv => {
+        const adHTML = `
+            <iframe src="${loc}?type=pc" class="ad-computer ad-container" width="468px" height="60px" frameborder="0"></iframe>
+            <iframe src="${loc}?type=mobile" class="ad-mobile ad-container" width="320px" height="50px" frameborder="0"></iframe>
+        `;
+        adDiv.outerHTML = adHTML;
+    });
+}
+
 function addAD(parent, loc) {
     const adMobile = document.createElement("iframe");
     const adComputer = document.createElement("iframe");
