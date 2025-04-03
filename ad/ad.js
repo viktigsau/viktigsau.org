@@ -36,17 +36,19 @@ function reloadAd(ad) {
     }
 }
 
-function addAD(parent) {
+function addAD(parent, loc) {
     const adMobile = document.createElement("iframe");
     const adComputer = document.createElement("iframe");
 
-    adComputer.src = "/global/ad.html?type=pc";
+    adComputer.src = "/ad.html?type=pc";
+    if (loc) adComputer.src = `${loc}?type=pc`;
     adComputer.className = "ad-computer ad-container";
     adComputer.width = "468px";
     adComputer.height = "60px"
     adComputer.style = "display: block;"
 
-    adMobile.src = "/global/ad.html?type=mobile";
+    adMobile.src = "/ad.html?type=mobile";
+    if (loc) adMobile.src = `${loc}?type=mobile`;
     adMobile.className = "ad-mobile ad-container";
     adMobile.width = "320px";
     adMobile.height = "50px"
