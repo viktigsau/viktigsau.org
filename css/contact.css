@@ -30,6 +30,8 @@
 }
 
 .contact-link{
+    width: fit-content;
+    
     display: inline;
 
     text-align: center;
