@@ -1,2 +1,3 @@
 User-agent: *
-Allow: /
+Disallow: /private/
+Sitemap: https://sitemap.viktigsau.org/sitemap/viktigsau.org
