@@ -1,6 +1,11 @@
 {
     "projects":[
       {
+          "name":"Synq Messager",
+          "description":"Check you my and tuktuk's new messaging app",
+          "url":"https://synq.viktigsau.org"
+      },
+      {
         "name":"visitors",
         "description":"a simple visitor counter.",
         "url":"https://visitors.viktigsau.org/?s=XHN5ky1Xnmw"
