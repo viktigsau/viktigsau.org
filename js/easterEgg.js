@@ -21,7 +21,6 @@ let playing = false;
 
 setInterval(() => {
     lastAction += 1;
-    console.log(lastAction);
     if (lastAction >= 3600 && !playing) {
         isIdle = true;
         playing = true;
@@ -76,7 +75,6 @@ function idle() {
     let totalDelaySeconds = 0;
     dialoge.forEach((line) => {
         setTimeout(() => {
-            console.log(line, isIdle);
             if (isIdle) {
                 speachBubble.innerText = line;
             }else{
