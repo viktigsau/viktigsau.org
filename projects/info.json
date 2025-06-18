@@ -1,6 +1,11 @@
 {
     "projects":[
       {
+          "name":"Search Engine",
+          "description":"My verry own Search Engine",
+          "url":"https://search.viktigsau.org"
+      },
+      {
           "name":"Synq Messager",
           "description":"Check you my and tuktuk's new messaging app",
           "url":"https://synq.viktigsau.org"
@@ -17,7 +22,7 @@
       },
       {
           "name":"Web Wednesday",
-          "description":"I make a new website every Wednesday",
+          "description":"I make a new website some Wednesdays",
           "url":"https://ww.viktigsau.org"
       }
     ]
