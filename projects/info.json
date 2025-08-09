@@ -1,5 +1,10 @@
 {
     "projects":[
+        {
+            "name":"Redstone Schematics.org",
+            "description":"A place for redstoners to share their creations",
+            "url":"https://redstone-schematics.org/"
+        },
       {
           "name":"Share This!",
           "description":"A socal expiriment!",
